@@ -18,4 +18,14 @@
   &.home {
     width: 173px;
   }
+
+  &.loadMore {
+    color: var(--Main);
+    border: 1px solid var(--Gray-light);
+    background-color: var(--White);
+
+    &:hover {
+      border: 1px solid var(--Button-Hover);
+    }
+  }
 }
